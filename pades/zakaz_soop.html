@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodWorld - Оформление заказа</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Jolly+Lodger&family=Pacifico&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="../index.html" class="logo">FoodWorld</a>
+                <div class="nav-links">
+                    <a href="../index.html#home" class="links">Главная</a>
+                    <a href="../index.html#menu" class="links">Меню</a>
+                    <a href="../index.html#about" class="links">Контакты</a>
+                    <a href="login.html" class="links">Регистрация/Вход</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="order">
+        <div class="container">
+            <h1 class="order-title">Оформление заказа</h1>
+
+            <div class="order-content">
+                <div class="order-items">
+                    <h2>Ваш заказ:</h2>
+                    <div class="cart-item">
+                        <img src="../img/soop.png" alt="Оранжевое чудо">
+                        <div class="cart-item-info">
+                            <h3>"Оранжевое чудо"</h3>
+                            <p>250 руб. x 1</p>
+                            <p class="cart-item-total">250 руб.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-form">
+                    <div class="order-form_inf">
+                        <h2>Данные для доставки</h2>
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="tel" placeholder="Телефон" pattern="\+7\d{10}" required>
+                        <textarea placeholder="Адрес доставки" required></textarea>
+                    </div>
+                    <div class="order-total">
+                        <h3>Итого к оплате: <span>250 руб.</span></h3>
+                    </div>
+
+                    <button type="submit" class="order-btn">Подтвердить заказ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer_zakaz">
+        ©2019-2024 Доставка еды с ресторана "FoodWorld"
+    </footer>
+</body>
+
+</html>
