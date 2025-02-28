@@ -908,6 +908,7 @@ footer {
         gap: 20px;
         width: 300px;
         text-align: center;
+        margin: 0 auto;
     }
 
     .order-items {
